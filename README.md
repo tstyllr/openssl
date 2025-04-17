@@ -1,4 +1,4 @@
-## 启动环境
+## 构建、启动并进入环境
 
 ```sh
 mkdir -p ~/Downloads/certs && \
