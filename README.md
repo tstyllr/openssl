@@ -10,7 +10,7 @@ docker run -v ~/Downloads/certs:/app -it openssl
 
 ```sh
 openssl pkcs12 -export -out certificate.pfx \
--inkey privkey.pem \
--in fullchain.pem \
+-inkey privkey1.pem \
+-in fullchain1.pem \
 -passout pass:123456
 ```
